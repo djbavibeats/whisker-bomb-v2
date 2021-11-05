@@ -1,9 +1,5 @@
 body{
-	background: purple;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #fff;
+
 }
 
 h1{
@@ -11,4 +7,15 @@ h1{
 	font-weight: 900;
 	text-transform: uppercase;
 	text-decoration: underline;
+}
+
+.header__pink__bar {
+	background: #E9068B;
+	height: 40px;
+	display: block !important;
+}
+.header.home {
+	background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+	height: 100px;
+	border: 1px solid red;
 }
